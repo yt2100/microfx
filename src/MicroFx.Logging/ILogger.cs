@@ -7,5 +7,7 @@ namespace MicroFx.Logging
     public interface ILogger
     {
         void Log<T>(T message);
+
+       // void Log<T>(LogType type, T message);
     }
 }

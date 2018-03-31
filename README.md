@@ -3,8 +3,9 @@ Micro Framework for .Net
 
 ## Plan
 
-- [ ] Logging
+- [ ] Logging 
 - [ ] Cache
+- [ ] KVStore
 - [ ] DDD
 - [ ] ICO
 - [ ] AOP
