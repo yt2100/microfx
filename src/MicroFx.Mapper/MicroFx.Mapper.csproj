@@ -5,7 +5,7 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <SignAssembly>true</SignAssembly>
-    <AssemblyOriginatorKeyFile>MicroFx.pfx</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>../MicroFx.pfx</AssemblyOriginatorKeyFile>
     <PackageLicenseUrl>https://github.com/guodf/MicroFx</PackageLicenseUrl>
     <PackageProjectUrl>https://github.com/guodf/MicroFx</PackageProjectUrl>
     <RepositoryUrl>https://github.com/guodf/MicroFx</RepositoryUrl>
