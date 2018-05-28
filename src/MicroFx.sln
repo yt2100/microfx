@@ -31,10 +31,17 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{B6C1BF30-7
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroFx.Data", "MicroFx.Data\MicroFx.Data.csproj", "{AB085271-A6FC-417A-802E-F4A560A70032}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroFx.Dapper", "MicroFx.Dapper\MicroFx.Dapper.csproj", "{D0963FF5-FF7F-48BB-AFEF-C40A42A9A859}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroFx.Dapper", "MicroFx.Dapper\MicroFx.Dapper.csproj", "{D0963FF5-FF7F-48BB-AFEF-C40A42A9A859}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IoC", "IoC", "{964F96B4-3432-4596-BC21-1010BB2A007A}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "MicroFx.DI", "MicroFx.DI\MicroFx.DI.shproj", "{151D3441-8417-4E49-B598-FF3D5BBA5E28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroFx.DI.Net35", "MicroFx.DI.Net35\MicroFx.DI.Net35.csproj", "{5595F24C-7AB6-482D-ACDC-A72651B7BA40}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		MicroFx.DI\MicroFx.DI.projitems*{151d3441-8417-4e49-b598-ff3d5bba5e28}*SharedItemsImports = 13
 		MicroFx.WebService\MicroFx.WebService.projitems*{75f64ed7-3c8b-4bce-b42a-0c65fc248247}*SharedItemsImports = 13
 		MicroFx.WebService\MicroFx.WebService.projitems*{a77e929c-28a2-4006-a68c-867593c5e6d7}*SharedItemsImports = 4
 	EndGlobalSection
@@ -79,6 +86,10 @@ Global
 		{D0963FF5-FF7F-48BB-AFEF-C40A42A9A859}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0963FF5-FF7F-48BB-AFEF-C40A42A9A859}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0963FF5-FF7F-48BB-AFEF-C40A42A9A859}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5595F24C-7AB6-482D-ACDC-A72651B7BA40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5595F24C-7AB6-482D-ACDC-A72651B7BA40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5595F24C-7AB6-482D-ACDC-A72651B7BA40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5595F24C-7AB6-482D-ACDC-A72651B7BA40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -93,6 +104,8 @@ Global
 		{4B2407BC-4178-49C1-8362-3436FFCC9CDA} = {575D417D-E733-4D9E-AEDA-8854BB49B724}
 		{AB085271-A6FC-417A-802E-F4A560A70032} = {B6C1BF30-71C5-423D-B4CF-BEB3508FD5A5}
 		{D0963FF5-FF7F-48BB-AFEF-C40A42A9A859} = {B6C1BF30-71C5-423D-B4CF-BEB3508FD5A5}
+		{151D3441-8417-4E49-B598-FF3D5BBA5E28} = {964F96B4-3432-4596-BC21-1010BB2A007A}
+		{5595F24C-7AB6-482D-ACDC-A72651B7BA40} = {964F96B4-3432-4596-BC21-1010BB2A007A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FB67ECBD-7683-421B-BBE4-D2177A4B9613}
