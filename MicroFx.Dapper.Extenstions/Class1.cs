@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace MicroFx.Dapper
+namespace MicroFx.Dapper.Extenstions
 {
     public class Class1
     {
