@@ -1,7 +1,17 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <SignAssembly>true</SignAssembly>
+    <AssemblyOriginatorKeyFile>../MicroFx.pfx</AssemblyOriginatorKeyFile>
+    <Version>0.0.1</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>guodf</Authors>
+    <Product>MicroFx</Product>
+    <Company />
+    <PackageId />
+    <PackageProjectUrl>https://github.com/guodf/microfx</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/guodf/microfx</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MicroFx.EFCore.RemoveForeignKey\MicroFx.EFCore.RemoveForeignKey.csproj" />
+    <ProjectReference Include="..\Micro.EntityFrameworkCore.RemoveForeignKey\MicroFx.EFCore.RemoveForeignKey.csproj" />
   </ItemGroup>
 
 </Project>
